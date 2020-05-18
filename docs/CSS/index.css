@@ -24,13 +24,13 @@ body{
   height: 100vh;
   background-color: #FFF;
   border: 1px solid #a7d7f9;
-  margin: 40px 5px 5px 0;
+  margin: 40px 5px 5px 0px;
   width: 100vw;
 }
 
 .main{
-  margin: 20px 5px 0px 24px;
-  width: 85%;
+  margin: 1% 1% 1% 1%;
+  width: 100%;
 }
 
 h1{
@@ -38,15 +38,15 @@ h1{
   font-size: 30px;
   margin: 0 0 7.2px;
   border-bottom: solid 1px;
-  display: block;
-  width: 80vw;
+  width: 83vw;
 }
 
 p{
   font-size: 15px;
 }
 
-.source{
+.source{;
+  width: 100%;
   margin-bottom: 17px;
 }
 
@@ -59,4 +59,54 @@ a{
   width: 130px;
   margin: 0px;
   padding: 10px 10px 20px 10px;
+}
+
+article{
+  width: 83vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.infobox{
+  margin-left: 2vw;
+  width: 30vw;
+  height: 80vh;
+  border: solid 1px;
+  text-align: center;
+}
+
+.namebox{
+  width: 95%;
+  height: 10%;
+  margin: 2% 2% 2% 2%;
+  font-weight: bold;
+  background-color: #f4bf92;
+}
+
+.myname{
+  font-size: 125%;
+  line-height: 250%;
+}
+
+.self-portrait{
+  width: 90%;
+  height: 60%;
+}
+
+.basicinfo{
+  width: 95%;
+  height: 5%;
+  margin: 2% 2% 2% 2%;
+  font-weight: bold;
+  background-color: #f4bf92;
+}
+
+th{
+  width: 70px;
+  height: 30px;
+}
+
+td{
+  text-align: left;
 }
