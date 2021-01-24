@@ -1,0 +1,14 @@
+.container{
+  max-width: 100%;
+}
+
+
+
+/* テスト用 ページが完成したら消す。 */
+.side{
+  background-color: blue;
+}
+
+.main{
+  background-color: pink;
+}
