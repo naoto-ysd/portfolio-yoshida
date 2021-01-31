@@ -2,13 +2,19 @@
   max-width: 100%;
 }
 
+.img-responsive {
+  max-width: 90%;
+}
 
+.main-border{
+  border: 1px solid #a7d7f9 !important;
+}
 
 /* テスト用 ページが完成したら消す。 */
-.side{
+/* .side{
   background-color: blue;
 }
 
 .main{
   background-color: pink;
-}
+} */
